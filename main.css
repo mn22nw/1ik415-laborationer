@@ -1,0 +1,50 @@
+﻿@charset "UTF-8";
+
+	body {overflow-y: scroll;}
+	h2 {padding-top:10px;}
+			
+	#page {	width:900px; 
+			min-height:100%; 
+			height:auto !important;  
+			margin:0 auto;
+			padding-bottom:15px;
+	}
+	#header {  display:block; height:200px; width:100%; }
+	#header h1 {margin-top:70px; float:left;}
+		
+	#menu a {		line-height:2em;}
+	#menu a:link {	color:#484759;		font-weight:bold;
+					font-size:1.5em;	font-style:italic; 	letter-spacing:1px; }
+	#menu a:visited{ color:#484759;}
+	#menu a:hover  {color:#99BFA3;}
+	#menu a:active {color:#484759;}
+	
+
+	
+	
+	#menu { 		width:30%;float:right; overflow:hidden; } 
+	#menu ul {	list-style:none; 
+				line-height:1.5em; }
+				
+	
+	#columnLeft {	min-height:500px; 	height:auto !important; 	width:65%;
+					border-right:2px #000 solid; }
+					
+	#mainBlog {margin-left:5%; margin-right:10%;  
+				overflow:hidden;}
+
+	#mainBlog li { font-weight:bold; 
+		line-height: 35px;}
+	
+	#mainBlog ol li{font-weight:200;
+		line-height: 20px;}	
+		
+	#mainBlog dl {font-weight:bold;}
+	#mainBlog dd {font-weight:normal;
+		font-style:italic;}
+		
+	.datum {font-style:italic;}
+	.logo {float:right;}
+	.post { 
+	padding:15px;}
+
