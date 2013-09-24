@@ -14,15 +14,16 @@
 			<h1>Webbteknisk Introduktion</h1>
 			<img class="logo" src="../pics/logo.png" alt="Logo" />
 		</header>
-	
+	<div id="column-right">
 	<nav id="menu">
 		<ul>
 			<li><a href="../index.html">Start</a></li>
 			<li><a href="laborationer.html">Laborationer</a></li>
 			<li><a href="presentation.html">Presentation</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
+			<li class="active">Kontakt</li>
 		</ul>
 	</nav>
+	</div>
 	
 		
 	<div id="columnLeft">
@@ -34,27 +35,28 @@
       enctype="application/x-www-form-urlencoded"
       action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> <fieldset>
 	<legend>Fråga</legend>	
-	 <p><label>Ärendetyp<select name="ärendetyp" >
+	 <p><label>Ärendetyp</label><select name="ärendetyp" >
 	  <option value="fråga">Fråga</option>
 	  <option value="laboration">Laboration</option>
 	  <option value="betygssättning">Betygssättning</option>
-	</select></label></p>
+	</select></p>
 
  <p><label>Rubrik: <input name="rubrik" required></label></p>
  <p><label>Fråga: <textarea name="fråga" maxlength=1000></textarea></label></p>
  
    </fieldset><fieldset>
   <legend> Information om dig</legend>
-   <p><label>Telephone: <input type=tel name="telefon" ></label></p>
-	<p><label>E-mail address: <input type=email name="mail" ></label></p>
-  <p><label> <input type=checkbox name="kontakta_via" value="mail"> Kontakta mig via mail</label></p>
-  <p><label> <input type=checkbox name="kontakta_via" value="tel"> Kontakta mig via telefon</label></p>
+   <p><label>Telephone:</label> <input type=tel name="telefon" ></p>
+	<p><label>E-mail address:</label><input type=email name="mail" ></p>
+  <p><label>Kontakta mig via mail</label> <input type=checkbox name="kontakta_via" value="mail"> </p>
+  <p><label>Kontakta mig via telefon</label><input type=checkbox name="kontakta_via" value="tel"></p>
    <p><button>Skicka</button></p>
  </fieldset>
 </form>
 
 		</div>
 	</div>
+	<footer id="footer"> Maria Nygren's blogg </footer> 
 	</div>
 	</body>
 </html>
