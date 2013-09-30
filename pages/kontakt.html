@@ -31,27 +31,27 @@
 		<div id="mainBlog">
 		<h2>Kontakta mig</h2>
 		
-<form method="post"
+<form method="post" id="kontaktform"
       enctype="application/x-www-form-urlencoded"
       action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php"> <fieldset>
-	<legend>Fråga</legend>	
-	 <p><label>Ärendetyp</label><select name="ärendetyp" >
+	<legend>FRÅGA</legend>	
+	 <p class="fleft"><label>Ärendetyp:</label><select name="ärendetyp" >
 	  <option value="fråga">Fråga</option>
 	  <option value="laboration">Laboration</option>
 	  <option value="betygssättning">Betygssättning</option>
 	</select></p>
 
- <p><label>Rubrik: <input name="rubrik" required></label></p>
- <p><label>Fråga: <textarea name="fråga" maxlength=1000></textarea></label></p>
+ <p><label>Rubrik:</label><input name="rubrik" required></p>
+ <p><label class="block">Fråga:</label><textarea name="fråga" maxlength=1000></textarea></p>
  
    </fieldset><fieldset>
-  <legend> Information om dig</legend>
-   <p><label>Telephone:</label> <input type=tel name="telefon" ></p>
-	<p><label>E-mail address:</label><input type=email name="mail" ></p>
-  <p><label>Kontakta mig via mail</label> <input type=checkbox name="kontakta_via" value="mail"> </p>
-  <p><label>Kontakta mig via telefon</label><input type=checkbox name="kontakta_via" value="tel"></p>
-   <p><button>Skicka</button></p>
+  <legend>INFORMATION OM DIG</legend>
+   <p><label class="label">Telefon:</label><input type=tel name="telefon" ></p>
+	<p><label class="label">E-mail:</label><input type=email name="mail" ></p>
+  <p><label class="label2">Kontakta mig via mail</label><input type=checkbox name="kontakta_via" value="mail"> </p>
+  <p><label class="label2">Kontakta mig via telefon</label><input type=checkbox name="kontakta_via" value="tel"></p>  
  </fieldset>
+ <p><button id="button">Skicka formulär</button></p>
 </form>
 
 		</div>
