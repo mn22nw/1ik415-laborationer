@@ -38,6 +38,9 @@
 					font-size:1.2em;
 					padding:10px 0;
 					width:100%;
+					border-radius:0.5em;
+					box-shadow: 5px 5px 2px #d5fcfa;
+					margin-bottom:10px;
 					}
 	#menu a:link {	color:#FFF;					font-weight:bold;		background: #5B9692;
 												letter-spacing:1px; }
@@ -45,11 +48,14 @@
 												    
 	#menu a:hover {  background-color:#337571; }
 	#menu a:active { color:#FFF;}
+	#menu li {border-radius:0.5em; }
 	
 	/*Den aktiva menyknappen*/	
 	.active {		background-color:#484759; 	line-height:2em;
+					box-shadow: 5px 5px 2px #d5fcfa;
 					display:block;
 					margin:2%;
+					margin-bottom:10px;
 					text-align: center;
 					font-family: 'Volkhov', serif;
 					text-decoration:none;
@@ -62,8 +68,9 @@
 					line-height:1.5em; 
 					width:250px;
 					margin-top: 4.5em;
-					margin-left:-1em;
+					margin-left:-1em;				
 				}
+
 				
 	
 				
