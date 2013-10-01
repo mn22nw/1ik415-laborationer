@@ -30,40 +30,50 @@
 	
 	/*Menyn*/	
 	#menu a {		line-height:2em;
-					display:block;
-					margin:2%;
+					display:block;					
 					text-align: center;
 					text-decoration:none;
 					font-family: 'Volkhov', serif;
 					font-size:1.2em;
 					padding:10px 0;
-					width:100%;
 					border-radius:0.5em;
-					box-shadow: 5px 5px 2px #d5fcfa;
 					margin-bottom:10px;
-					}
-	#menu a:link {	color:#FFF;					font-weight:bold;		background: #5B9692;
+					background: url('pics/sprite.png') no-repeat;}
+	#menu a:link {	color:#FFF;					font-weight:bold;		
+					background-position:20px 30px;
 												letter-spacing:1px; }
 	#menu a:visited{ color:#FFF;}               
 												    
-	#menu a:hover {  background-color:#337571; }
-	#menu a:active { color:#FFF;}
-	#menu li {border-radius:0.5em; }
+	#menu a:hover{  	color:#0c3331;}
+	#menu a:active{ 	color:#FFF;}
+	#menu li {		border-radius:0.5em; 
+					width:250px; 
+					background:#5B9692;
+					box-shadow: 5px 5px 2px #d5fcfa;}
 	
-	/*Den aktiva menyknappen*/	
-	.active {		background-color:#484759; 	line-height:2em;
-					box-shadow: 5px 5px 2px #d5fcfa;
-					display:block;
-					margin:2%;
-					margin-bottom:10px;
-					text-align: center;
-					font-family: 'Volkhov', serif;
-					text-decoration:none;
-					color:#FFF;					font-weight:bold;		cursor:default;
-					font-size:1.2em;			letter-spacing:1px; 
-					padding:10px 0;
-					width:100%;
-					}
+	/*Startknapp*/
+	#menu .startKnapp a{ 				background-position:15px -32px; }
+	#menu .startKnapp a:hover{ 			background-position:15px 16px;  }
+	#menu .active a{						background-position:15px 16px; color:#0c3331; cursor:default;}
+
+	
+	/*labbknapp*/
+	#menu .labbKnapp a{ 					background-position:15px -128px;}
+	#menu .labbKnapp a:hover{ 			background-position:15px -80px;}
+	#menu .activeLabb a{ 				background-position:15px -80px; color:#0c3331; cursor:default;}
+	
+	/*Presentationsknapp*/
+	#menu .presentationKnapp a{			background-position:15px -224px;}
+	#menu .presentationKnapp a:hover{	background-position:15px -176px;}  
+	#menu .activePresentation a {		background-position:15px -176px; color:#0c3331; cursor:default;}
+	
+	/*Kontaktknapp*/
+	#menu .kontaktKnapp a {				background-position:15px -320px;}
+	#menu .kontaktKnapp a:hover { 		background-position:15px -272px;}
+	#menu .activeKontakt a{ 				background-position:15px -272px; color:#0c3331; cursor:default;}
+	
+
+
 	#menu ul {		list-style:none; 
 					line-height:1.5em; 
 					width:250px;
