@@ -45,7 +45,7 @@
 	#menu a:visited{ color:#FFF;}               
 												    
 	#menu a:hover{  	color:#0c3331;}
-	#menu a:active{ 	color:#FFF;}
+	#menu a:active{ 	color:#FFF; border:none;}
 	#menu li {		border-radius:0.5em; 
 					width:250px; 
 					background:#5B9692;
