@@ -161,12 +161,12 @@
 #page {				width:100%;
 					min-width:320px;
 	}
-#column-right { 	float:none; 			width:100%; 	overflow:hidden; 	margin-top:130px;	border:1px solid green;} 
+#column-right { 	float:none; 			width:100%; 	overflow:hidden; 	margin-top:130px;} 
 #columnLeft { 	float:none; 			width:90%; 		overflow:hidden; 	border:none; } 
 #mainBlog {		margin:0 auto;			width:90%; }
 #header {		float:none;				padding-left:0;}
 #header h1 {		text-align:center; 		float:none; }
-#menu ul {		max-width:200px;		width:100%; 	margin:0 auto; 		margin-top:50px; 	border:1px solid green; }
+#menu ul {		max-width:200px;		width:100%; 	margin:0 auto; 		margin-top:50px; }
 #menu li {		margin:0 auto; 			margin-left:-2.5em;}
 .logo {			display:block; 			margin:0 auto; float:none; }
 .datum {			width:90%;}
