@@ -171,9 +171,20 @@
 .logo {			display:block; 			margin:0 auto; float:none; }
 .datum {			width:90%;}
 img {			max-width:80%;}
+video {			max-height:210px;}
 .left , .right {	float:none; 			margin:0 auto;}
 #mainBlog h3 {	padding-right:5px; 		line-height:30px;}
 .br {			display:inline;}
-}
+#tabell{width:80%;}
+table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+#kontaktform {	width:90%; }
+textarea {		width:90%;  }
+.fleft {			float:none;}
+.label { 		width:80px; display:block; }
+.label2 { 		width:200px; display:block; }
+
+	}
 
 
