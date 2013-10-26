@@ -8,6 +8,18 @@
 	<link type="text/css" rel="stylesheet" media="print" href="print.css" />
 	<link rel="shortcut icon" href="pics/favicon1.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" href="pics/appleicon.png" />
+	<script>  
+		 document.createElement("header"); 
+		 document.createElement("hgroup");  
+		 document.createElement("footer"); 
+		 document.createElement("article"); 
+		 document.createElement("main"); 
+		 document.createElement("section"); 
+		 document.createElement("nav"); 
+		 document.createElement("aside"); 
+		 document.createElement("address"); 
+	</script> 
+
 	</head>
 
 	 	<body>
@@ -33,21 +45,27 @@
 	<div id="columnLeft">
 		
 		<div id="mainBlog">
-		<h2>Kursblogg</h2>
+		<main>
+		<header>
+		<h1>Kursblogg</h1> </header>
 		
 			<!-- Rubrik för inlägg -->
 			<div id="kopia" class="post">
+			 <article>
 				<h3>Uppgift 3.3</h3>
 				
 				<!-- Ämne -->	
 				<p> Nu är jag klar med kopian av hemsidan. Länk till den finns <a href="https://c9.io/mn22nw/uppgift-3-3/workspace/index.html" target="_blank">Här</a>
 				</p>
 				<!-- namn och tidpunkt -->
-				<p class="datum"> Skrivet av Maria Nygren, 2013-10-01</p>
+				<footer><p class="datum"> Skrivet av Maria Nygren, 2013-10-01</p></footer>
+				<section><p>Ett skepp kommer lastat med lite kommentarer!</p></section>
+			 </article>
 			</div>
 		
 			<!-- Rubrik för inlägg -->
 			<div id="bilder" class="post">
+			 <article>
 				<h3>Nature Boy</h3>
 				
 				<!-- Ämne -->	
@@ -58,13 +76,16 @@
 				<p> And then one day, One magic day he passed my way </p><br /><p> While we spoke of many things Fools and Kings <br /> This he said to me </p><p>The greatest thing you'll ever learn <br /> Is just to love and be loved in return
 				</p>
 				<!-- namn och tidpunkt -->
-				<p class="datum"> Skrivet av Maria Nygren, 2013-09-13</p>
+				<footer><p class="datum"> Skrivet av Maria Nygren, <time datetime="2013-09-13">2013-09-13</time></p></footer> 
+				<section><p>Helt orelaterad kommentar, tänkte nog lära mig dragspel någon vacker dag.</p></section>
+			 </article>
 			</div>
 		
 		
 		
 				<!-- Rubrik för inlägg -->
 			<div id="bunny" class="post">
+			 <article>
 				<h3> Lägger upp en <br class="br">video</h3>
 				
 				<!-- Ämne -->	
@@ -76,27 +97,36 @@
 				</video>
 				<p>Videon tagen från - <a href="http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/">sample video for html5</a></p>
 				<!-- namn och tidpunkt -->
-				<p class="datum"> Skrivet av Maria Nygren, 2013-09-23</p>
+				<footer><p class="datum"> Skrivet av Maria Nygren, 2013-09-23</p></footer>
+				<section><p>Vad är väl en <a href="http://www.pokerskull.com/wp/wp-content/uploads/2012/12/Vad_%C3%A4r_v%C3%A4l_en_bal_p%C3%A5_slottet.jpg">bal på slottet?</a></p></section>
+			 </article>
 			</div>
 			
 				<!-- Rubrik för inlägg -->
 			<div id="svg" class="post">
+			 <article>
 				<h3> SVG </h3>
 				
 				<!-- Ämne -->	
 				<p>Detta är min svg-bild</p>
 				<img src="pics/heart.svg" alt="heart" />
 				<!-- namn och tidpunkt -->
-				<p class="datum"> Skrivet av Maria Nygren, 2013-09-11</p>
+				<footer><p class="datum"> Skrivet av Maria Nygren, 2013-09-11</p></footer>
+				<section><p>Ett skepp kommer lastat med en svg-bild. Arrr</p></section>
+			 </article>
 			</div>
 			
  		<!-- Rubrik för inlägg -->
  			<div class="post">
+			 <article>
  				<h3> Hallå där!</h3>
 
  				<!-- namn och tidpunkt -->
  				<p class="datum"> Skrivet av Maria Nygren, 2013-09-11</p>
+				<section><p>Sov gott som en igelkott, dröm om nått du inte fått</p></section>
+			 </article>
  			</div>
+		 </main>
 		</div>
 	</div>
 	<footer id="footer"> Maria Nygren's blogg </footer> 
