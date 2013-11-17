@@ -68,14 +68,14 @@
 		ul.bilder img {		display: block; 
 							width: 250px; 
 							margin-bottom: 12px; }
-		ul.bilder a:after { 	content: attr(title); }
+		ul.bilder a:after { 	content: attr(title); font-family: "Volkhov", Sans-Serif;	}
 		
 		ul.bilder li:nth-child(even) a { 	-webkit-transform: rotate(2deg);  
 										-moz-transform: rotate(2deg); }
 		ul.bilder li:nth-child(3n) a { 	-webkit-transform: none; position: relative;  -moz-transform: none; }
 		ul.bilder li:nth-child(5n) a { 	-webkit-transform: rotate(5deg); position: relative; right: 5px;  -moz-transform: rotate(5deg); }
 		ul.bilder li:nth-child(8n) a {		position: relative; right: 5px; top: 8px; }
-		ul.bilder li a:hover { -webkit-transform: scale(1.5); 
+		ul.bilder li a:hover, ul.bilder li a:focus { -webkit-transform: scale(1.5); 
 							-moz-transform: scale(1.5); 
 							-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
 							-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5); 
